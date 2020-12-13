@@ -1,0 +1,16 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+		"--name=avae_release",
+		"--runtime=nvidia",
+		"--volume", "${localWorkspaceFolder}/data:/workspaces/data",
+		"--volume", "${localWorkspaceFolder}/outputs:/workspaces/outputs"
+	],
+	"extensions": [
+		"ms-python.python", 
+		"ms-azuretools.vscode-docker",
+		"eamodio.gitlens"
+	],
+	"postCreateCommand": "/bin/bash"
+}

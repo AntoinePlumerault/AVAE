@@ -1,3 +1,12 @@
+AVAE: Adversarial Variational Auto Encoder
+
+Antoine Plumerault, Hervé Le Borgne, Céline Hudelot
+International Conference on Pattern Recognition, 2020
+
+If you use this code for your research, please site our paper:
+
+```Citation when available```
+
 Setup
 =====
 

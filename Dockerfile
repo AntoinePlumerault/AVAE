@@ -29,15 +29,13 @@ RUN conda install tensorflow-gpu
 RUN pip uninstall tensorflow -y
 RUN pip install tensorflow tensorflow-datasets tensorflow-hub
 
-# Waiting pytorch to fix the issue with PILLOW_VERSION import
+# Install pytorch
 RUN conda install pytorch torchvision torchaudio cudatoolkit=10.1 -c pytorch
 
 RUN conda install opencv \
     && conda install scikit-image \
     && conda install ipython \
     && conda install matplotlib
-
-# RUN conda install Pillow=6.2.1 
 
 EXPOSE 3000
 

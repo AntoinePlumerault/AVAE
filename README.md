@@ -3,7 +3,7 @@ Setup
 
 To set up the environment you can use the Dockerfile if you have nvidia-docker installed on your machine.
 
-Alternatively, you can create a Conda environment with the required packages by running the following commands in a terminal:
+Alternatively, you can create a python 3.7 Conda environment with the required packages by running the following commands in a terminal:
 
 ```bash
 conda create -n icml_avae
@@ -17,9 +17,7 @@ conda install opencv
 conda install scikit-image
 conda install ipython
 pip install tensorflow-hub
-conda install Pillow=6.2.1
 ```
-
 CelebA dataset
 --------------
 

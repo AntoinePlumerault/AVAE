@@ -3,8 +3,9 @@
 # 1) Download Align&Cropped images from http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 #    Direct link: https://drive.google.com/open?id=0B7EVK8r0v71pZjFTYXZWM3FlRnM
 # 2) Extract `img_align_celeba_zip` into `../data/`.
-# 4) Open a terminal and place yourself in the `src` directory with the `cd` command.
-# 3) Execute the command python3 dataset/celeba.py to create the tfrecords files.
+# 3) Open a terminal and go to the `src` directory then execute this file
+#       cd src
+#       python3 datasets/celeba.py
 # 4) Then this dataset should be usable as the other ones.
 
 import os 

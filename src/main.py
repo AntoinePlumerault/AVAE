@@ -125,7 +125,7 @@ def main(argv):
             
         # ---------------------------- Write results ---------------------------
 
-        output_file = os.path.join(test_dir, mode+'.csv')
+        output_file = os.path.join(test_dir, FLAGS.mode+'.csv')
         with open(output_file, 'w') as f:
             f.write('mse,lpips,fid\n')
             f.write('{:<5.2f},{:<5.2f},{:<5.2f}'.format(
